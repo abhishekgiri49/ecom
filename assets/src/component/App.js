@@ -15,7 +15,7 @@ class App extends React.Component {
   render () {
     const text = 'Blog';
     return (
-        <h1>hello abhi</h1>
+        <HomeIndex />
     )
   }
 }
