@@ -1,0 +1,42 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --colors --mode development",
+    "watch": "webpack --config webpack.config.js --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekgiri49/ecom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekgiri49/ecom/issues"
+  },
+  "homepage": "https://github.com/abhishekgiri49/ecom#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "mini-css-extract-plugin": "^0.10.0",
+    "webpack": "^4.44.1",
+    "webpack-bundle-tracker": "^1.0.0-alpha.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "axios": "^0.20.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  }
+}

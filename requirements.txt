@@ -1,0 +1,12 @@
+Django==2.2.4
+ipython==7.7.0
+djangorestframework==3.11.0
+django-webpack-loader==0.6.0
+django-rest-knox==4.1.0
+pandas
+django-cors-headers==3.2.1
+psycopg2==2.8.4
+xlrd==1.2.0
+pillow==7.2.0
+django-multiselectfield==0.1.12
+django-ckeditor==5.9.0
