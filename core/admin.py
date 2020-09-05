@@ -7,7 +7,7 @@ class ServiceAdmin(admin.ModelAdmin):
     list_display = ['title','status']
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ['title','slug']
+    list_display = ['title','parent','slug']
 
 class BrandAdmin(admin.ModelAdmin):
     list_display = ['name','status']

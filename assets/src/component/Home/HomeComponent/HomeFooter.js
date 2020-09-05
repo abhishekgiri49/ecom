@@ -5,89 +5,85 @@ export default class Footer extends React.Component{
     
     render(){
         return(
-            <div>            
-                <section id="contact" className="contact bg-mega fix">
-                <div className="container">
-                    <div className="row">
-                        <div className="main_contact roomy-100 text-white">
+            <div>  
+                <footer className="footer">
+                <div className="top-footer">
+                    <div className="container">
+                        <div className="row">
                             <div className="col-md-4">
-                                <div className="rage_widget">
-                                    <div className="widget_head">
-                                        <h3 className="text-white">Contact</h3>
-                                        <div className="separator_small"></div>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
-                                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam, 
-                                        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                                        ut aliquip ex ea commodo consequat. </p>
-
-                                    <div className="widget_socail m-top-30">
-                                        <ul className="list-inline">
-                                            <li><a href=""><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href=""><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href=""><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href=""><i className="fa fa-vimeo"></i></a></li>
-                                            <li><a href=""><i className="fa fa-instagram"></i></a></li>
-                                        </ul>
+                                <p className="logoname">Furnidesk</p>
+                                <p className="text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <div className="contact">
+                                    <h4>Contact info:</h4>
+                                    <p>Naxal,Bagwati Marg,Kathmandu.</p>
+                                    <div className="link-follow">
+                                        <a className="twitter fab fa-twitter" title="Twitter" href=""></a>
+                                        <a className="googleplus fab fa-google-plus-g" title="Google" href=""></a>
+                                        <a className="facebook fab fa-facebook-f" title="Facebook" href=""></a>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-8 sm-m-top-30">
-                                <form className="" action="subcribe.php">
-                                    <div className="row">
-                                        <div className="col-sm-6">
-                                            <div className="form-group"> 
-                                                <input id="first_name" name="first_name" type="text" placeholder="Name" className="form-control" required="" />
-                                            </div>
-                                        </div>
+                            <div className="col-md-4">
+                                <div className="left-title footer-title">The company</div>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <ul className="liststyle--none">
+                                            <li><a href="">About Us</a></li>
+                                            <li><a href="">Help</a></li>
+                                            <li><a href="">Blog</a></li>
+                                            <li><a href="">Inside UL</a></li>
 
-                                        <div className="col-sm-6">
-                                            <div className="form-group">  
-                                                <input id="phone" name="phone" type="text" placeholder="Phone" className="form-control" />
-                                            </div>
-                                        </div>
 
-                                        <div className="col-sm-12">
-                                            <div className="form-group">  
-                                                <textarea className="form-control" rows="6" placeholder="Message"></textarea>
-                                            </div>
-                                            <div className="form-group text-center">
-                                                <a href="" className="btn btn-primary">SEND MESSAGE</a>
-                                            </div>
-                                        </div>
-
+                                        </ul>
                                     </div>
+                                    <div className="col-md-6">
+                                        <ul className="liststyle--none">
+                                            <li><a href="">Careers</a></li>
+                                            <li><a href="">Press</a></li>
+                                            <li><a href="">Team</a></li>
+                                            <li><a href="">Privacy Policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
 
-                                </form>
+
                             </div>
+                            <div className="col-md-4">
+                                <div className="left-title footer-title">More Information</div>
+                                <div className="row">
+                                    <div className="col-md-6"><ul className="liststyle--none">
+                                            <li><a href="">Payment & Security</a></li>
+                                            <li><a href="">Shipping & Delivery</a></li>
+                                            <li><a href="">Terms of Use</a></li>
+                                            <li><a href="">Terms of Offer + Sale</a></li>
+
+                                        </ul></div>
+                                    <div className="col-md-6">
+                                        <ul className="liststyle--none">
+                                            <li><a href="">Contact Us</a></li>
+                                            <li><a href="">Visit Us</a></li>
+                                            <li><a href="">Buy in Bulk</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
-            </section>
+                <div className="bottom-footer">
+                    <span>
+                        Copyright © 2018 All Rights Reserved.
+                    </span>
 
-            <div className="scrollup">
-                <a href="#" /><i className="fa fa-chevron-up"></i>
-            </div>
-
-
-            <footer id="footer" className="footer">
-                <div className="container">
-                    <div className="row">
-                        <div className="main_footer text-center p-top-40 p-bottom-30">
-                            <p className="wow fadeInRight" data-wow-duration="1s">
-                                Made with 
-                                <i className="fa fa-heart"></i>
-                                by 
-                                <a target="_blank" href="http://www.glimmerit.com.np">Glimmer IT</a> 
-                                2017. All Rights Reserved
-                            </p>
-                        </div>
-                    </div>
                 </div>
-            </footer>
+            </footer>          
             </div>
-
         );
     }
 
