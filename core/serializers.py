@@ -12,3 +12,8 @@ class ServiceSerializer(ModelSerializer):
     class Meta:
         model = Service
         exclude = ()
+class BannersSerializer(ModelSerializer):
+
+    class Meta:
+        model = Banner
+        exclude = ()

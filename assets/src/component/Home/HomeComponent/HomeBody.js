@@ -2,7 +2,7 @@ import React , { Component } from "react";
 import ReactDOM from 'react-dom';
 import HomeHeader from './HomeHeader';
 import HomeFooter from './HomeFooter';
-import Slider from './Slider';
+import SliderComponent from './SliderComponent';
 import ProductCategory from './Product/ProductCategory';
 import Popular from './Product/Popular';
 export default class HomeBody extends Component{
@@ -13,7 +13,7 @@ export default class HomeBody extends Component{
             <React.Fragment>
                 <div>
                     <HomeHeader />
-                    <Slider />
+                    <SliderComponent />
                     <ProductCategory />
                     <Popular />
                     <HomeFooter />

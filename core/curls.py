@@ -5,6 +5,7 @@ from . import views
 router = routers.DefaultRouter()
 router.register(r'services', views.ServicesViewSet)
 router.register(r'footer', views.FooterDataViewSet)
+router.register(r'banners', views.BannersViewSet)
 urlpatterns = [
     path(r'api/core/', include(router.urls)),
     path('', views.ReactTemplateView.as_view(), name="react_template"),
